@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .map-container {
+    margin-top: 6rem;
+    height: 100vh;
+    text-align: center;
+  }

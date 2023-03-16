@@ -1,0 +1,13 @@
+<google-map
+  height="400px"
+  width="750px"
+  [center]="center"
+  [zoom]="zoom"
+  (mapClick)="moveMap($event)"
+  (mapMousemove)="move($event)"
+>
+</google-map>
+<div class="info-container">
+  <div class="pe-3">Latitude: {{ display?.lat | number:'1.3-3' }}</div>
+  <div>Longitude: {{ display?.lng | number:'1.3-3' }}</div>
+</div>
